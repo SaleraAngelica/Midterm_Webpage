@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width:  100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(41, 56, 87);
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+
+h1{
+    color: rgb(41, 56, 87);;
+}
+
+.h{
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+#img{
+    margin-left: 25vh;
+    height: 55vh;
+    width: 55vh;
+}
+
+#img-{
+    height: 35vh;
+    width: 100%;
+}
+
+
+#img-r{
+    height: 45vh;
+    width: 100%;
+}
+
+#home{
+    background: url(pics/back1.gif) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+#fixed1{
+    background: url(pics/6.gif) no-repeat center center fixed;
+    display: table;
+    height: 85%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+#fixed2{
+    background: url(pics/laugh.gif) no-repeat center center fixed;
+    display: table;
+    height: 85%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#team{
+    background: url(pics/teamba.jpg) no-repeat center center fixed;
+    display: table;
+    height: 85%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#anime {
+    background-color: #d5d5d594;
+    padding-top: 10px;
+}
+
+#about{
+    background-color: #d5d5d594;
+    padding-top: 15px;
+}
+
+#gallery{
+    padding-top: 10px;
+    padding-bottom: 0;
+    background: url(pics/teamba.jpg) no-repeat center center fixed;
+    display: table;
+    height: 85%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color:white
+}
+
+#gal{
+    background-color:  #a0a0a0d8;
+    font-style: italic;
+    color: black;
+}
+
+#gal a:visited{
+    color: black;
+}
+
+#gal a:hover {
+    color: rgb(8, 55, 116)
+  }
+
+#title {
+    font-style: italic;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+#contact-section .container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#contact-section{
+    height: 100%;
+    width: 100%;
+    background: url(pics/back.jpg) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 2%;
+    padding-top: 20px;
+}
+
+#contact-section .container h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+#contact-section .container p{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+#meme , #warning{
+    width: 100%;
+}
+
+.display-4{
+    color: white;
+}
+
+.contact-form i.fa{
+    font-size: 25px;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 80%;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-form .fa {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.contact-form h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.contact-form{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+    padding-right: 10px;
+}
+
+form{
+    padding-left: 20vh;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(136, 133, 133, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(136, 133, 133, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #fff;
+}
+
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3%;
+    border: 2px solid white;
+    color: white;
+}
+
+.padding{
+    padding: 10px 0;
+}
+.navbar{
+    background-color: rgb(41, 56, 87);
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.icon{
+    height: 50vh;   
+    width: 50vh;
+}
+
+.logo{
+    height: 50px;   
+    width: 75px;
+    padding: 3px 3px 3px;
+    
+}
+.navbar ul li .nav-link.active,
+.navbar ul li a:hover{
+    background: rgba(59, 94, 189, 0.815);
+    border-radius: 2px;
+    padding: 6px 13px;
+    transition: .3s;  
+} 
+
+.container{
+    margin-top: 80px;
+}
+
+
+.big-text{
+    font-size: 80px;
+    font-family: cursive;
+    font-weight: 30px;
+    margin: 20px 0;
+    color: #af5ae7;
+    text-shadow: 4px 4px white;
+}
+
+a.btn{
+    margin: 20px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: rgba(53, 98, 223, 0.815);
+    color: white
+}
+
+a.btn-second{
+    background: transparent;
+    border: 2px solid  rgba(53, 98, 223, 0.815);
+    color: white;
+}
+
+a.btn:hover{
+    background: rgba(53, 98, 223, 0.815);
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px #23467a;
+    transition: 0.3s;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;    
+    color: white;
+}
+
+.fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px #224d8d;
+    transition: 0.3s;
+}
+
+.icon{
+    padding: 0;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.light{
+    border-top: 1px solid white;
+}
+
+.gal img{
+    height: 50vh;
+    width: 88vh;
+}
+
+.meme{
+    max-width: 100%;
+}
+
+.fun , .fun1{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+    background-color: rgb(41, 56, 87);
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+
+
+.card{
+    margin: 20px;
+}
+
+.card img{
+    height: 55vh;
+    width: 100%;
+}
+
+.gallery{
+    margin: 10px 20px;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    height: 45vh;
+    width: 45vh;
+}
+
+.gallery img:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px){
+    #home h1{
+        font-size: 50px;
+    } 
+    #home p.big-text{
+        font-size: 80px;
+    }
+    #home p{
+        font-size: 18px;
+    }
+    .fa{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        max-width: 200px;
+    }
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #contact-section .submit{
+        width: 60%;
+    }
+    form{
+        padding: 0;
+    }
+    
+}
